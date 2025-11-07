@@ -1,0 +1,20 @@
+# .gitignore für Shopify Theme CLI und IntelliJ/JetBrains
+
+# ------------------
+# Shopify CLI Dateien
+# ------------------
+.shopify-cli-theme
+.shopify-identity.json
+
+# ------------------
+# IDE und OS Dateien
+# ------------------
+# IntelliJ / WebStorm / PhpStorm
+.idea/
+*.iml
+
+# macOS-Dateien (falls relevant)
+.DS_Store
+
+# NPM Abhängigkeiten (falls du JS-Tools nutzt)
+node_moduleso
